@@ -1,7 +1,7 @@
 package src.reilaender.cipher;
 
 /**
- * @author Manuel Reiländer (nur nachgeschrieben)
+ * @author Manuel Reiländer
  */
 public abstract class MonoalphabeticCipher implements Cipher {
 
