@@ -13,10 +13,10 @@ public class SubstitutionCipher extends MonoalphabeticCipher {
 	 * @param secretAlphabet the secret alphabet for this SubstitutionCipher
 	 */
 	public SubstitutionCipher(String secretAlphabet) {
-		
+		setSecretAlphabet(secretAlphabet);
 	}
 	@Override
 	public void setSecretAlphabet(String alphabet) {
-		
+		super.setSecretAlphabet(alphabet);
 	}
 }
